@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="time"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:first-of-type {
+  background: #28a745;
+  color: white;
+}
+
+button:last-of-type {
+  background: #dc3545;
+  color: white;
+}
+
+#current-time {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#alarm-status {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
